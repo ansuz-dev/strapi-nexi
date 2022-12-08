@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_items_quote_items",
+  "info": {
+    "displayName": "QuoteItem",
+    "icon": "quote-left"
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "person": {
+      "type": "string"
+    }
+  }
+}

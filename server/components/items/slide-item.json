@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_items_slide_items",
+  "info": {
+    "displayName": "SlideItem",
+    "icon": "photo-video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "videoLink": {
+      "type": "text"
+    },
+    "duration": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

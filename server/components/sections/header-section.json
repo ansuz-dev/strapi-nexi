@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_sections_header_sections",
+  "info": {
+    "displayName": "HeaderSection",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "layout": {
+      "type": "string"
+    },
+    "background": {
+      "type": "string"
+    },
+    "photos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.link-item"
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.slide-item"
+    }
+  }
+}

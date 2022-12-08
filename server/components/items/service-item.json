@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_items_service_items",
+  "info": {
+    "displayName": "ServiceItem",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

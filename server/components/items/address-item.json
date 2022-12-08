@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_items_address_items",
+  "info": {
+    "displayName": "AddressItem",
+    "icon": "location-arrow"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    }
+  }
+}

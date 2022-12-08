@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_sections_preview_sections",
+  "info": {
+    "displayName": "PreviewSection",
+    "icon": "eye"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "layout": {
+      "type": "string"
+    },
+    "background": {
+      "type": "string"
+    },
+    "document": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.link-item"
+    }
+  }
+}

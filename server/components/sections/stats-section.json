@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_stats_sections",
+  "info": {
+    "displayName": "StatsSection",
+    "icon": "chart-bar"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "layout": {
+      "type": "string"
+    },
+    "background": {
+      "type": "string"
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.stat-item"
+    }
+  }
+}

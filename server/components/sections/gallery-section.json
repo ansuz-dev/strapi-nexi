@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_gallery_sections",
+  "info": {
+    "displayName": "GallerySection",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "layout": {
+      "type": "string"
+    },
+    "background": {
+      "type": "string"
+    },
+    "photos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.link-item"
+    }
+  }
+}

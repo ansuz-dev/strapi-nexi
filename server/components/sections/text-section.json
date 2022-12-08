@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_text_sections",
+  "info": {
+    "displayName": "TextSection",
+    "icon": "font",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "layout": {
+      "type": "string"
+    },
+    "background": {
+      "type": "string"
+    }
+  }
+}

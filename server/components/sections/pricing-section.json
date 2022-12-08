@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_pricing_sections",
+  "info": {
+    "displayName": "PricingSection",
+    "icon": "money-bill-wave",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "layout": {
+      "type": "string"
+    },
+    "background": {
+      "type": "string"
+    },
+    "plans": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.pricing-item"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.link-item"
+    }
+  }
+}

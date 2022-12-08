@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_items_pricing_items",
+  "info": {
+    "displayName": "PricingItem",
+    "icon": "dollar-sign",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "plan": {
+      "type": "text"
+    },
+    "reversed": {
+      "type": "boolean",
+      "default": false
+    },
+    "link": {
+      "type": "string"
+    },
+    "linkTitle": {
+      "type": "string"
+    },
+    "recommended": {
+      "type": "string"
+    }
+  }
+}

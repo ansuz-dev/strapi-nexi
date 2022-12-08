@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_sections_quote_sections",
+  "info": {
+    "displayName": "QuoteSection",
+    "icon": "quote-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "layout": {
+      "type": "string"
+    },
+    "background": {
+      "type": "string"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "quotes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.quote-item"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.link-item"
+    }
+  }
+}

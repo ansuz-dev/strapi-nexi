@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_social_items",
+  "info": {
+    "displayName": "SocialItem",
+    "icon": "globe-asia",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "facebook": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    }
+  }
+}
